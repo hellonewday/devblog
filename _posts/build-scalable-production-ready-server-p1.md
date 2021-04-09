@@ -1,14 +1,14 @@
 ---
 title: "Build a scalable production-ready server - Part 1: Analyze the requirements"
-excerpt: "Create a simple server which do mathematics computation of two numbers. "
+excerpt: "Create a back-end server running on cloud-native plaform. Analyze the requirements to have big picture on what we are doing."
 coverImage: "/assets/blog/analyzeee.jpg"
-genre: "book"
-date: "2021-04-09T22:06:23+07:00"
+genre: "development"
+date: "2021-04-09T23:53:05+07:00"
 author:
   name: Nguyen Quoc Hung
   picture: "/assets/blog/DSC_0078.JPG"
 ogImage:
-  url: "/assets/blog/DSC_0078.JPG"
+  url: "/assets/blog/analyzeee.jpg"
 ---
 
 Imagine to have to develop and deploy a scalable, production-ready back-end system for caculator app. Although making an caculator app is not difficult technically, as you only need to add simple functions like plus, minus, subtract, divide, square,.... However, development is not everything of a project. 
