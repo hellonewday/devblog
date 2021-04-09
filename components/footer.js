@@ -1,5 +1,5 @@
-import Container from './container'
-import { EXAMPLE_PATH } from '../lib/constants'
+import Container from "./container";
+import { EXAMPLE_PATH } from "../lib/constants";
 
 export default function Footer() {
   return (
@@ -9,22 +9,33 @@ export default function Footer() {
           <h3 className="text-4xl lg:text-5xl font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">
             Say goodbye for now.
           </h3>
-          <div className="flex flex-col lg:flex-row justify-center items-center lg:pl-4 lg:w-1/2">
-            <a
-              href="https://nextjs.org/docs/basic-features/pages"
-              className="mx-3 bg-black hover:bg-white hover:text-black border border-black text-white font-bold py-3 px-12 lg:px-8 duration-200 transition-colors mb-6 lg:mb-0"
-            >
-              Read Documentation
-            </a>
-            <a
-              href={`https://github.com/vercel/next.js/tree/canary/examples/${EXAMPLE_PATH}`}
-              className="mx-3 font-bold hover:underline"
-            >
-              View on GitHub
-            </a>
+          <div className=" lg:flex-row justify-center items-center lg:pl-4 lg:w-1/2">
+            <div>
+              <h5 className="text-4xl lg:text-5xl font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">
+                About me
+              </h5>
+              <p>Hello, my name is Nguyen Quoc Hung. I am currently 4th year student at Post and Telecommunications Institute of Technoly. I am currently 
+                DevOps Intern and entitled Cloud Engineer in GCP Operation Team at CMC Telecom.
+              </p>
+            </div>
+            <br />
+            <div>
+              <a
+                href={`https://www.facebook.com/maximusss98/`}
+                className="mx-3 font-bold hover:underline"
+              >
+                Facebook
+              </a>
+              <a
+                href={`https://github.com/hellonewday`}
+                className="mx-3 font-bold hover:underline"
+              >
+                Github
+              </a>
+            </div>
           </div>
         </div>
       </Container>
     </footer>
-  )
+  );
 }
